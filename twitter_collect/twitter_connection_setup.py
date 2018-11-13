@@ -1,7 +1,7 @@
 import tweepy
+
 # We import our access keys:
 from credentials import *
-
 
 def twitter_setup():
     """
@@ -16,3 +16,11 @@ def twitter_setup():
     # Return API with authentication:
     api = tweepy.API(auth)
     return api
+
+def collect():
+    connexion =twitter_setup()
+    tweets = connexion.search("Emmanuel Macron",language="french",rpp=100)
+    for tweet in tweets:
+        print(tweet.text)
+
+print(collect())

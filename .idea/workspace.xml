@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6636b94e-a39a-468b-8132-7d4ba9daef0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/credentials.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" afterDir="false" />
-    </list>
+    <list default="true" id="6636b94e-a39a-468b-8132-7d4ba9daef0e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/credentials.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="62" lean-forward="true" selection-start-line="2" selection-end-line="8" selection-end-column="62" />
+              <caret line="8" column="62" selection-start-line="2" selection-end-line="8" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -110,11 +106,6 @@
               <item name="twitterPredictor" type="b2602c69:ProjectViewProjectNode" />
               <item name="twitterPredictor" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="twitterPredictor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twitterPredictor" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter_collect" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -124,7 +115,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -173,17 +164,17 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32983682" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298292" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="8" visible="true" weight="0.32983682" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32983682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -211,7 +202,7 @@
     <entry file="file://$PROJECT_DIR$/credentials.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="62" lean-forward="true" selection-start-line="2" selection-end-line="8" selection-end-column="62" />
+          <caret line="8" column="62" selection-start-line="2" selection-end-line="8" selection-end-column="62" />
         </state>
       </provider>
     </entry>

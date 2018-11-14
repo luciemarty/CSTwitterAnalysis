@@ -15,9 +15,9 @@ def twitter_setup():
     api = tweepy.API(auth)
     return api
 
-def collect():
+def collect(search):
     connexion = twitter_setup()
-    tweets = connexion.search("Emmanuel Macron",language="french",rpp=100)
+    tweets = connexion.search(str(search),language="french",rpp=100)
     for tweet in tweets:
         print(tweet.text)
 
@@ -53,3 +53,5 @@ def collect_by_streaming():
     listener = StdOutListener()
     stream=tweepy.Stream(auth = connexion.auth, listener=listener)
     stream.filter(track=['Emmanuel Macron'])
+
+

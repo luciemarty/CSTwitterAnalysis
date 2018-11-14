@@ -5,15 +5,9 @@ from twitter_collect.collect_by_user import *
 
 
 
+"""Extrait les tweets à l'aide de la fonction collect à partir des hashtags et des mots-clés du candidat en question"""
+
 def get_candidate_queries(num_candidate, file_path):
-    """
-    Generate and return a list of string queries for the search Twitter API from the file file_path_num_candidate.txt
-    :param num_candidate: the number of the candidate
-    :param file_path: the path to the keyword and hashtag
-    files
-    :param type: type of the keyword, either "keywords" or "hashtags"
-    :return: (list) a list of string queries that can be done to the search API independently
-    """
     try:
         file_hashtag_candidate='/Users/PaulJoly/PycharmProjects/twitterPredictor/'+str(file_path)+'/hashtag_'+str(num_candidate)+'.txt'
         file_keywords_candidate='/Users/PaulJoly/PycharmProjects/twitterPredictor/'+str(file_path)+'/keywords_candidate_'+str(num_candidate)+'.txt'

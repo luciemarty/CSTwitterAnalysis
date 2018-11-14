@@ -21,3 +21,6 @@ def collect(Search):
     tweets = connexion.search(q=str(Search),language="french",rpp=100,show_user=True)
     return tweets
 
+a=(collect("Trois années sont passées mais rien n’est oublié. Le 13 novembre est entré dans la mémoire de la Nation tout"))
+for i in a:
+    print(i)

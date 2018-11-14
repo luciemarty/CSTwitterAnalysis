@@ -2,120 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6636b94e-a39a-468b-8132-7d4ba9daef0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/twitter_collect/collect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter_collect/collect_by_streaming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter_collect/collect_by_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/twitterPredictor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/twitterPredictor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/.coveragerc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/ASCII_LOGO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/CONTRIBUTORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/MANIFEST.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/bindings_url_parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testaddremovelistmember.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testaddremovelistmembers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testblocks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testblocksids.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testcachedresult.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testcreatedestroyblock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testcreatedestroyfavorite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testcreatedestroyfriendship.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testcursorcursoritems.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testcursorcursorpages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testcursornext.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testdirectmessages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testfavorites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testfollowers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testfollowersids.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testfriends.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testfriendsids.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testgeoapis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testgetlist.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testgetoembed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testgetstatus.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testgetuser.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testhometimeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testidcursoritems.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testidcursorpages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testlistmembers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testlistsall.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testlistsmemberships.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testlistssubscriptions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testlistsubscribers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testlisttimeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testlookupusers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testme.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testmentionstimeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testratelimitstatus.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testretweeters.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testretweets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testretweetsofme.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsavedsearches.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsearch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsearchusers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsendanddestroydirectmessage.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsentdirectmessages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testshowfriendship.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testshowlistmember.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testshowlistsubscriber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsubscribeunsubscribelist.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsuggestedcategories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsuggestedusers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsuggesteduserstweets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testsupportedlanguages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testupdateanddestroystatus.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testupdateprofile.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testupdateprofilebannerimage.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testupdateprofilecolors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testupdatestatuswithmedia.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testusertimeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/cassettes/testverifycredentials.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/api.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/auth_tutorial.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/code_snippet.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/cursor_tutorial.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/getting_started.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/install.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/make.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/parameters.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/docs/streaming_how_to.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/examples/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/examples/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/examples/oauth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/examples/streaming.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/setup.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/test_requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/record.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/test_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/test_auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/test_cursors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/test_rate_limit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/test_resultset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/test_streaming.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/test_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tests/travis-tests.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tox.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/binder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/cursor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/error.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/parsers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/streaming.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweepy/tweepy/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,25 +29,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="181" />
-          <entry key="py" value="391" />
+          <entry key="py" value="904" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="572" />
+          <entry key="Python" value="1085" />
         </counts>
       </usages-collector>
     </session>
@@ -164,20 +57,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/credentials.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="62" selection-start-line="2" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter_collect/collect_by_streaming.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py">
+        <entry file="file://$PROJECT_DIR$/twitter_collect/collect_by_user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter_collect/collect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/streaming.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -203,13 +138,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/twitterPredictor/__init__.py" />
-        <option value="$PROJECT_DIR$/credentials.py" />
         <option value="$PROJECT_DIR$/Test.py" />
+        <option value="$PROJECT_DIR$/credentials.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/twitter_API-functions.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/twitter_API_functions.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/collect.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/collect_by_streaming.py" />
         <option value="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/collect_by_user.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="60" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -247,7 +187,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -266,7 +206,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.collect_by_user">
+    <configuration name="collect_by_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitterPredictor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_collect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_collect/collect_by_user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="twitter_connection_setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,8 +249,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.twitter_connection_setup" />
+      <item itemvalue="Python.collect_by_user" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.collect_by_user" />
         <item itemvalue="Python.twitter_connection_setup" />
       </list>
     </recent_temporary>
@@ -298,13 +264,13 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="23" width="1440" height="825" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2925408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,6 +286,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="LIMIT_HISTORY" value="false" />
     <MESSAGE value="First test" />
     <MESSAGE value="Second test" />
     <option name="LAST_COMMIT_MESSAGE" value="Second test" />
@@ -328,22 +295,66 @@
     <entry file="file://$PROJECT_DIR$/twitterPredictor/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/credentials.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="62" selection-start-line="2" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/streaming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_API-functions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_API_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credentials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/collect_by_streaming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/collect_by_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

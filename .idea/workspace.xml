@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f6af4a-e9e6-4939-a542-a9e9f09395bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CandidateData/hashtag_candidate_n.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CandidateData/hashtag_candidate_n.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CandidateData/keywords_candidate_n.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CandidateData/keywords_candidate_n.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_collect/collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_collect/collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_collect/fonctionnalité 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_collect/fonctionnalité 3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitter_collect/fonctionnalité 3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="296">
               <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
@@ -96,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -262,7 +259,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -362,7 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter_collect/fonctionnalité 3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="296">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>

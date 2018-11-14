@@ -17,11 +17,10 @@ def twitter_setup():
     return api
 
 
-def collect_by_user(user_id):
+def collect_by_user(user_id,count):
     connexion =twitter_setup()
-    statuses = connexion.user_timeline(id = user_id, count = 10)
+    statuses = connexion.user_timeline(id = user_id, count = int(count))
     for status in statuses:
         print(status.text)
     return statuses
 
-print(collect_by_user(80820758))

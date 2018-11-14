@@ -1,5 +1,8 @@
 import tweepy
+# We import our access keys:
 from credentials import *
+from tweepy.streaming import StreamListener
+
 
 def twitter_setup():
     """
@@ -16,8 +19,13 @@ def twitter_setup():
     return api
 
 
-def collect(Search):
-    connexion = twitter_setup()
-    tweets = connexion.search(q=str(Search),language="french",rpp=100,show_user=True)
-    for tweet in tweets:
-        print(tweet.text)
+#Id_Place given by http://woeid.rosselliot.co.nz/
+connection=twitter_setup()
+trends1 = connection.trends_place(23424819) #Extract Twitter trends for France
+data = trends1[0]
+# grab the trends
+trends = data['trends']
+# grab the name from each trend
+names = [trend['name'] for trend in trends]
+trendsName = ','.join(names)
+print(trendsName)

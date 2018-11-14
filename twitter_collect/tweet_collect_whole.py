@@ -18,9 +18,24 @@ def get_candidate_queries(num_candidate, file_path):
         file_hashtag_candidate='/Users/PaulJoly/PycharmProjects/twitterPredictor/'+str(file_path)+'/hashtag_'+str(num_candidate)+'.txt'
         file_keywords_candidate='/Users/PaulJoly/PycharmProjects/twitterPredictor/'+str(file_path)+'/keywords_candidate_'+str(num_candidate)+'.txt'
         fichier_hashtag = open(file_hashtag_candidate, "r")
-        fichier_keywords= open(file_keywords_candidate, "r")
-        return fichier_hashtag.read(),fichier_keywords.read()
+        fichier_keywords = open(file_keywords_candidate, "r")
+        for line in fichier_hashtag.readlines():
+            print("")
+            print(line)
+            tweets=(collect(line))
+            for tweet in tweets:
+                print(tweet.text)
+        for line in fichier_keywords.readlines():
+            print("")
+            print(line)
+            tweets=(collect(line))
+            for tweet in tweets:
+                print(tweet.text)
     except IOError as error:
         print(error)
 
 print (get_candidate_queries(1,'CandidateData'))
+
+
+#for tweet in tweets:
+    #    print(tweet.text)

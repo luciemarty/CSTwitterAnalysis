@@ -19,5 +19,5 @@ def twitter_setup():
 def collect(Search):
     connexion = twitter_setup()
     tweets = connexion.search(q=str(Search),language="french",rpp=100,show_user=True)
-    for tweet in tweets:
-        print(tweet.text)
+    return tweets
+

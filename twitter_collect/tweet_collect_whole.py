@@ -5,7 +5,9 @@ from twitter_collect.collect_by_user import *
 
 
 
-"""Extrait les tweets à l'aide de la fonction collect à partir des hashtags et des mots-clés du candidat en question"""
+"""Extrait les tweets à l'aide de la fonction collect à partir des hashtags et des mots-clés du candidat en question
+On construit ensuite une liste, avec chaque élément une sous-liste avec le nom de la personne qui tweet, le contenu
+du tweet, le nombre de retweet et le nombre de like"""
 
 def get_candidate_queries(num_candidate, file_path):
     try:
@@ -32,8 +34,3 @@ def get_candidate_queries(num_candidate, file_path):
         print(error)
     return collected
 
-print (get_candidate_queries(1,'CandidateData'))
-
-
-#for tweet in tweets:
-    #    print(tweet.text)

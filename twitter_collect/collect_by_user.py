@@ -16,12 +16,13 @@ def twitter_setup():
     api = tweepy.API(auth)
     return api
 
-
+"""On construit ensuite une liste, avec chaque élément une sous-liste avec le nom de la personne qui tweet, le contenu
+du tweet, le nombre de retweet et le nombre de like"""
 def collect_by_user(user_id,count):
     connexion =twitter_setup()
     statuses = connexion.user_timeline(id = user_id, count = int(count))
     collected=[]
     for tweet in statuses:
-        collected=collected+[[tweet.user.name,tweet.text,tweet.retweet_count,tweet.favorite_count]]
+        collected=collected+[[tweet.user.name,tweet.text,tweet.retweet_count,tweet.favorite_count,tweet.created_at]]
     return collected
 

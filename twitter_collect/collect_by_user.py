@@ -20,7 +20,8 @@ def twitter_setup():
 def collect_by_user(user_id,count):
     connexion =twitter_setup()
     statuses = connexion.user_timeline(id = user_id, count = int(count))
-    for status in statuses:
-        print(status.text)
-    return statuses
+    collected=[]
+    for tweet in statuses:
+        collected=collected+[[tweet.user.name,tweet.text,tweet.retweet_count,tweet.favorite_count]]
+    return collected
 

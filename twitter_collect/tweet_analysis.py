@@ -1,4 +1,5 @@
 from twitter_collect.collect_candidate_actuality_tweets import *
+from twitter_collect.collect import *
 
 def max_rt(num_candidate) :
     """fonction qui à partir des fichier hashtag_candidate_n.txt et keywords_candidate_n.txt renvoie le tweet avec le plus de RT"""
@@ -17,6 +18,19 @@ def max_rt(num_candidate) :
     except IOError as error :
         print(error)
 
-print(max_rt('n'))
+
+def visualisation(id_num) :
+    """affiche la représentation du nombre de RT en fonction de la date concernant le candidat id_num"""
+    try :
+        connexion = twitter_setup()
+        statuses = connexion.user_timeline(id = user_id, count = 200)
+        date = []
+        nb_RT =[]
+        for status in statuses:
+            date.append(float(status.retweet_count))
+            nb_RT.append(status.created_at)
+    
+
+
 
 

@@ -21,6 +21,12 @@ def collect(search):
     for tweet in tweets:
         print(tweet.text)
 
+def collect_json(search):
+    connexion = twitter_setup()
+    tweets = connexion.search(str(search), language="french", rpp=100)
+    for tweet in tweets :
+        print(tweet)
+
 def collect_by_user(user_id):
     connexion = twitter_setup()
     statuses = connexion.user_timeline(id = user_id, count = 200)

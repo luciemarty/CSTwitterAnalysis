@@ -18,7 +18,7 @@ def twitter_setup():
 
 def collect(Search):
     connexion = twitter_setup()
-    tweets = connexion.search(q=str(Search),language="french",rpp=100,show_user=True)
+    tweets = connexion.search(q=str(Search),language="french",rpp=10,show_user=True)
     return tweets
 
 #a=(collect("Trois années sont passées mais rien n’est oublié. Le 13 novembre est entré dans la mémoire de la Nation tout"))

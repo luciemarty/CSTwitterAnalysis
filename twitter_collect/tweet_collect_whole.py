@@ -1,4 +1,4 @@
-
+import tweepy
 from twitter_collect.collect import *
 from twitter_collect.collect_by_streaming import *
 from twitter_collect.collect_by_user import *
@@ -30,7 +30,8 @@ def get_candidate_queries(num_candidate, file_path):
             for tweet in tweets:
                 #print(tweet.text)
                 collected=collected+[[tweet.user.name,tweet.text,tweet.retweet_count,tweet.favorite_count]]
+        return collected
     except IOError as error:
         print(error)
-    return collected
+
 

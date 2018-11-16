@@ -37,7 +37,7 @@ def Tweet_poll(List):
             Count_Neutral=Count_Neutral+1
     Total_tweet=len(Polarity)
     print([Polarity])
-    return([Count_Positive/Total_tweet,Count_Neutral/Total_tweet,Count_Negative/Total_tweet])
+    return([Count_Positive/Total_tweet,Count_Neutral/Total_tweet,Count_Negative/Total_tweet,sum(Subjectivity)/len(Subjectivity)])
 
 """Exemple avec 4 personnalités politiques"""
 Info=[Tweet_poll(collect_by_user(813286,count=200)),Tweet_poll(collect_by_user(25073877,count=200)),Tweet_poll(collect_by_user(747807250819981312,count=200)),Tweet_poll(collect_by_user(14260960,count=200))]
@@ -67,6 +67,6 @@ print ("Opinion in relation with keywords and hashtags")
 print("Positive:"+str(Data[0]))
 print("Neutral:"+str(Data[1]))
 print("Negative:"+str(Data[2]))
-print("Subjectivity:"+str(Data[2]))
+print("Subjectivity:"+str(Data[3]))
 
 

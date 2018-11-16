@@ -33,8 +33,8 @@ def modelisation_RT(Liste):
     plt.show()
 
 "Modélisation des retweets aux tweets de D.Trump, pour les 200 derniers tweets"
-#print(modelisation_RT(collect_by_user(25073877,count=200)))
+print(modelisation_RT(collect_by_user(25073877,count=200)))
 "Modélisation des retweets aux tweets de B.Obama, pour les 200 derniers tweets"
-print(modelisation_RT(collect_by_user(813286,count=200)))
+#print(modelisation_RT(collect_by_user(813286,count=200)))
 
 
